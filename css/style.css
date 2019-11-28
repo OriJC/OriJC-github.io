@@ -648,6 +648,22 @@ body.offcanvas {
     border-bottom: 2px solid #2fa499; }
   .services.color-6 {
     border-bottom: 2px solid #4054b2; }
+  img.opa{
+   position: absolute;
+   z-index: -1;
+    opacity:0;
+    width: 200px;
+    left:25px;
+    right:0px;
+  }
+img:hover.opa{
+    position: absolute;
+    z-index: 1;
+    opacity: 100;
+    height: auto;
+    width: 200px;
+  }
+
 
 .services {
   margin-bottom: 80px;
