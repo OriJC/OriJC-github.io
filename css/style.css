@@ -660,7 +660,7 @@ img:hover.opa{
     position: absolute;
     z-index: 1;
     opacity: 100;
-    height: auto;
+    height: 100px;
     width: 200px;
   }
 
