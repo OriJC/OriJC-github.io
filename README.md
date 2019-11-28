@@ -7,7 +7,7 @@ index.html是我的主頁面
 這個網頁有部分檔案和程式部分是來自網絡上，以下列出來源的網站
 
 
-### Badminton img 
+### Badminton image 
 https://www.tudelft.nl/en/x/whats-on-offer/overview-a-z/badminton/
 
 
