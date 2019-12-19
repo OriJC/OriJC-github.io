@@ -1,0 +1,40 @@
+div#mainwindow{
+    height: 400px;
+    width: 400px;
+    border: solid 4px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.puzzle{
+    float: left;
+    width: 98px;
+    height: 98px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+
+h1.title{
+    text-align: center;
+}
+
+.block{
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+    padding:30px;
+    background-color: gray;
+}
+
+#btn{
+    background-color: grey;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:50px;
+    box-align:center;
+}
