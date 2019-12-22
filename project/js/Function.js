@@ -15,7 +15,7 @@ $(()=>{
         var cells = $("#mainwindow div");
         var i = cells.index(this);
         var empty = getPostion(i);
-        console.log(array);
+       // console.log(array);
         while (empty.length > 0) {
             var j = empty.pop();
             if (cells.eq(j).attr("id") == "Puz15") 
@@ -36,8 +36,8 @@ $(()=>{
                 break;
             }       
         } 
-        var array=[];
-        console.log(postable);
+      
+        //console.log(postable);
     })
 
     $('#btn').on('click',()=>{
@@ -50,11 +50,14 @@ $(()=>{
         }
         count=0;
         $("#countno").html("移動次數:"+count);
+        
+      
+
     })
 
     
     var getPostion=(i)=>{
-        var pool = []
+        var pool = [];
         var row = postable[i].row, col = postable[i].col;
         if (row > 0)
             pool.push((row - 1) *  4 + col);
@@ -66,5 +69,6 @@ $(()=>{
             pool.push( i + 1);
         return pool;
     }
+    
     
 })
